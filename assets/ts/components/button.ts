@@ -11,6 +11,18 @@ if(canUseWebP()){
     webp = "webp";
 }
 
+function route(url,newtab) {
+    if(url.startsWith("http")){
+        if(newtab){
+            window.open(url, '_blank');
+        }else{
+            window.location.href = url;
+        }
+    }else{
+        m.route.set(url);
+    }
+}
+
 /*
 * @param newtab
 * @param href
@@ -19,32 +31,26 @@ if(canUseWebP()){
 */
 var page = {
     view: function(vnode) {
-        var target = "";
-        var rel = "";
-        if(vnode.attrs.newtab == true){
-            target = "_blank"
-            rel = "noopener noreferrer"
-        }
+        let button_class = vnode.attrs.theme
+        var content;
         if(vnode.attrs.name != null && vnode.attrs.icon == null){
-            return a(vnode.attrs.theme,{href:vnode.attrs.href,target:target,rel:rel},
-                button(vnode.attrs.theme,{disabled:"true",'aria-disabled':"true"},[
-                    div('.name text light',vnode.attrs.name)
-                ])
-            )
+            content = [
+                div('.name text light',vnode.attrs.name)]
         }else if(vnode.attrs.icon != null && vnode.attrs.name != null){
-            return a(vnode.attrs.theme,{href:vnode.attrs.href,target:target,rel:rel},
-                button(vnode.attrs.theme+vnode.attrs.icon,{disabled:"true",'aria-disabled':"true"},[
-                    div('.icon',[i()]),
-                    div('.name .text .light',vnode.attrs.name)
-                ])
-            )
+            button_class += vnode.attrs.icon;
+            content = [
+                div('.icon',[i()]),
+                div('.name .text .light',vnode.attrs.name)]
         }else if(vnode.attrs.icon != null && vnode.attrs.name == null){
-            return a(vnode.attrs.theme,{href:vnode.attrs.href,target:target,rel:rel},
-                button(vnode.attrs.theme+vnode.attrs.icon,{disabled:"true",'aria-disabled':"true"},[
-                    div('.icon-alone .icon',[i()])
-                ])
-            )
+            button_class += vnode.attrs.icon;
+            content = [
+                div('.icon-alone .icon',[i()])]
         }
+        return button(button_class,{
+            onclick: function(e){
+                route(vnode.attrs.href,vnode.attrs.newtab);
+            }
+        },content)
     }
 }
 

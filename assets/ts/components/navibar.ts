@@ -26,22 +26,22 @@ var page = {
         return div('.comp.navibar .background .dark',[
             a('.logo',{href:"#!/home"},div('.logo',m.trust(Logo_big_white))),
             m(Button,{
-                href:"#!/contact",
+                href:"/contact",
                 theme:".transparent",
                 name:"Who are we?"
             }),
             m(Button,{
-                href:"#!/mission",
+                href:"/mission",
                 theme:".transparent",
                 name:"Mission"
             }),
             m(Button,{
-                href:"#!/news",
+                href:"/news",
                 theme:".transparent",
                 name:"News"
             }),
             m(Button,{
-                href:"#!/facts",
+                href:"/facts",
                 theme:".transparent",
                 name:"Facts"
             })

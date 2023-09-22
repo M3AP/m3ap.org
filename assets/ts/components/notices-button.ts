@@ -8,7 +8,7 @@ require('hyperscript-helpers')(m);
 var page = {
     view: function(vnode) {
         return div('.comp.notices-button',m(Button,{
-            href:"#!/legal-notices",
+            href:"/legal-notices",
             theme:".dark",
             name:"Legal Notices"
         }))
