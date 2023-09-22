@@ -1,0 +1,140 @@
+/*
+* Fonts
+*/
+
+.fs800{
+    font-size: 800%;
+}
+
+.fs700{
+    font-size: 700%;
+}
+
+.fs600{
+    font-size: 600%;
+}
+
+.fs500{
+    font-size: 500%;
+}
+
+.fs400{
+    font-size: 400%;
+}
+
+.fs300{
+    font-size: 300%;
+}
+
+.fs200{
+    font-size: 200%;
+}
+
+.fs150{
+    font-size: 150%;
+}
+
+.fs90{
+    font-size: 90%;
+}
+
+.fs80{
+    font-size: 80%;
+}
+
+.fs50{
+    font-size: 50%;
+}
+
+.fs70{
+    font-size: 70%;
+}
+
+.fs25{
+    font-size: 25%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-webkit-center{
+    text-align: -webkit-center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*
+* Div utils
+*/
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.no-margin{
+    margin: 0!important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.w10{
+    width: 10%;
+}
+
+.w33{
+    width: 33%;
+}
+
+.w49{
+    width: 49.5%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.bottom{
+    vertical-align: bottom;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row-flex-item{
+    flex: 1;
+}

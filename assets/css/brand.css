@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family:"Bebas Neue"!important;
+    src:url(../webfonts/BebasNeue-Regular.ttf)
+}
+
+html{
+    font-family: "Verdana";
+    text-rendering: optimizeLegibility!important;
+    background-color: #D9E6F4FF;
+}
+
+.background{
+    background-color:   #D9E6F4FF  ;
+}
+
+/* DARK THEME */
+
+.text.dark {
+    color: #43494EFF;
+}
+
+.background.dark{
+    background-color: #43494EFF;
+}
+
+/*/button.dark i:before {content: "\f4f6"; }/*/
+button.dark {background-color: #43494EFF;}
+button.dark i{color: #43494EFF;}
+
+/* LIGHT THEME */
+
+.text.light{
+    color: #FFFFFF;
+}
+
+.background.light{
+    background-color: #FFFFFF;
+}
+
+/*/button.light i:before {content: "\f4f6"; }/*/
+button.light {background-color: #FFFFFF;}
+button.light i{color: #FFFFFF;}
+
+/* LIGHT PURPLE THEME */
+.text .lightpurple {
+    color: #d6bfddff;
+}
+
+.background .lightpurple {
+    background-color: #d6bfddff;
+}
+
+/*button.lightpurple i:before {content: "\f4f6"; }*/
+button.lightpurple {background-color: #d6bfddff;}
+button.lightpurple i{color: #d6bfddff;}
+
+/* PURPLE THEME */
+.text .purple {
+    color: #A57FB2FF
+}
+
+.background .purple {
+    background-color: #A57FB2FF
+}
+
+/*/button.purple i:before {content: "\f4f6"; }/*/
+button.purple {background-color: #A57FB2FF;}
+button.purple i{color: #A57FB2FF;}
+
+/* DARK PURPLE THEME */
+.text .darkpurple {
+    color: #981e97FF;
+}
+
+.background .darkpurple {
+    background-color: #981e97FF;
+}
+
+/*/button.darkpurple i:before {content: "\f4f6"; }/*/
+button.darkpurple {background-color: #981e97FF;}
+button.darkpurple i{color: #981e97FF;}

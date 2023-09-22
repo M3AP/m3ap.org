@@ -1,0 +1,25 @@
+.home .navibar{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.home .content{
+    margin-top: 30px;
+}
+
+.home .splash div.logo{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.home .navibar.scroll{
+    visibility: visible;
+    opacity: 100;
+}
+
+.home .splash.scroll{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+}
