@@ -1,6 +1,6 @@
-# filiperamalho.de
+# m3ap.org
 
-This is the repo of [filiperamalho.de](https://filiperamalho.de). 
+This is the repo of [m3ap.org](https://m3ap.org). 
 
 Build a prod-build with:
 
