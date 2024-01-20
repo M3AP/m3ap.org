@@ -26,7 +26,7 @@
 
 .logo svg{
     width: auto;
-    max-height: 6vh;
+    height: 6vh;
 }
 
 
@@ -57,7 +57,7 @@
     }
 
     .logo svg{
-        max-height: 10vh;
+        height: 10vh;
     }
 
     .buttons button{

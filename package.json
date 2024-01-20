@@ -13,8 +13,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html --lazy",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/index.html --lazy --no-cache",
+    "build": "parcel build src/index.html --no-cache"
   },
   "browser": {
     "fs": false

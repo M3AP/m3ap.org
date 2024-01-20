@@ -5,7 +5,6 @@ import PageTemplate from "../components/PageTemplate";
 
 import { addScrollCheck } from "../utils";
 
-import svg from "bundle-text:/assets/img/Logo_big.svg";
 import style from "/assets/css/pages/Home.module.css";
 
 const { div } = require("hyperscript-helpers")(m);
@@ -26,7 +25,10 @@ const Home: m.Component = {
         },
         [
           div("." + style.splash, [
-            div("." + style.logo, m.trust(svg)),
+            div(
+              "." + style.logo,
+              m.trust(require("bundle-text:/assets/img/Logo_black.svg")),
+            ),
             div("." + style.row, [
               m(Button, {
                 newTab: true,

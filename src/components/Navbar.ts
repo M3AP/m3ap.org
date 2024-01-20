@@ -3,13 +3,18 @@ import css from "/assets/css/components/Navbar.module.css";
 
 const { div, a } = require("hyperscript-helpers")(m);
 
-import svg from "bundle-text:/assets/img/Logo_big_white.svg";
 import { Button, DefaultIcons } from "./Button";
 
 const Navbar: m.Component = {
   view() {
     return div("." + css.navbar, [
-      a({ href: "#!/" }, div("." + css.logo, m.trust(svg))),
+      a(
+        { href: "#!/" },
+        div(
+          "." + css.logo,
+          m.trust(require("bundle-text:/assets/img/Logo_white.svg")),
+        ),
+      ),
       div("." + css.buttons, [
         m(Button, {
           href: "/contact",
