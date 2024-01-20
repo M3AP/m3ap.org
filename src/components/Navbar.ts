@@ -1,7 +1,7 @@
 import * as m from "mithril";
 import css from "/assets/css/components/navbar.module.css";
 
-const {div, a, img} = require("hyperscript-helpers")(m);
+const {div, a} = require("hyperscript-helpers")(m);
 
 
 const Navbar: m.Component = {

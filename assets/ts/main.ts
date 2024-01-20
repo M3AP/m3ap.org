@@ -15,7 +15,7 @@ import LegalNoticeView from './pages/legal-notice.ts'
 require('normalize.css');
 
 import '../../index.html'
-import '../../favicon.ico'
+import '../../src/favicon.ico'
 
 function importAll(r) {
     return r.keys().map(r);
