@@ -1,6 +1,5 @@
-import m from 'mithril'
-//@ts-ignore
-import Button from './button.ts'
+import * as m from "mithril";
+import Button from './Button'
 
 const {div} =
 require('hyperscript-helpers')(m);

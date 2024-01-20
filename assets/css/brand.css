@@ -1,11 +1,10 @@
 
 @font-face {
-    font-family:"Bebas Neue"!important;
-    src:url(../webfonts/BebasNeue-Regular.ttf)
+    font-family:"Bebas Neue";
+    src:url(../fonts/BebasNeue-Regular.ttf)
 }
 
 html{
-    font-family: "Verdana";
     text-rendering: optimizeLegibility!important;
     background-color: #D9E6F4FF;
 }

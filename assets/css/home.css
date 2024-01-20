@@ -10,7 +10,12 @@
 .home .splash div.logo{
     width: 80%;
     max-width: 800px;
-    margin: auto;
+    margin: 1em auto;
+}
+
+.home .splash div.logo svg{
+    width: 100%;
+    height: auto;
 }
 
 .home .navibar.scroll{
@@ -19,7 +24,25 @@
 }
 
 .home .splash.scroll{
+    visibility: visible;
+    opacity: 100;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .splash{
     visibility: hidden;
     opacity: 0;
-    height: 0;
+    margin: 0;
+    height: 10vh;
+}
+
+.home .content{
+    min-height: 100vh;
+}
+
+.home .splash button{
+    font-size: 200%;
 }

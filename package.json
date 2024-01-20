@@ -20,7 +20,10 @@
     "fs": false
   },
   "devDependencies": {
+    "@parcel/transformer-inline-string": "2.11.0",
     "parcel": "^2.11.0",
+    "postcss": "^8.0.0",
+    "postcss-modules": "^4.3.0",
     "prettier": "^3.2.4",
     "typescript-plugin-css-modules": "^5.0.2"
   }

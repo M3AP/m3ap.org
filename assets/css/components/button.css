@@ -58,7 +58,7 @@ button.instagram .icon i{
     font-style:normal;
     font-weight:400;
     font-display:auto;
-    src:url(../../webfonts/fa-brands-400.woff2)
+    src:url(../../fonts/fa-brands-400.woff2)
 }
 
 @font-face{
@@ -66,7 +66,7 @@ button.instagram .icon i{
     font-style:normal;
     font-weight:900;
     font-display:auto;
-    src:url(../../webfonts/fa-solid-900.woff2);
+    src:url(../../fonts/fa-solid-900.woff2);
 }
 
 button{
@@ -125,6 +125,6 @@ button .icon-alone{
 
 button .name{
     display: inline;
-    padding: 1em;
+    padding: 0 1em;
     white-space: nowrap;
 }
