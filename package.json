@@ -1,6 +1,6 @@
 {
-  "name": "webtemplate",
-  "version": "0.0.1",
+  "name": "m3ap.org",
+  "version": "1.0.0",
   "license": "",
   "dependencies": {
     "@types/mithril": "^2.0.2",
