@@ -22,7 +22,7 @@
   "devDependencies": {
     "@parcel/transformer-inline-string": "2.11.0",
     "parcel": "^2.11.0",
-    "postcss": "^8.0.0",
+    "postcss": "^8.4.36",
     "postcss-modules": "^6.0.0",
     "prettier": "^3.2.4",
     "typescript-plugin-css-modules": "^5.0.2"
